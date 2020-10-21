@@ -2,14 +2,6 @@ import React from 'react';
 import { object,func } from 'prop-types';
 import 'react-dropdown/style.css';
 
-
-function handleSubmit(event){
-    this.props.name();
-    this.setState
-    event.preventDefault();
-
-    this.props.onSubmit(this.props.data)
-}
 export class ContactForm extends React.Component{
 
     
